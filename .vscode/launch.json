@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run system_monitor (CMake target)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "cwd": "${command:cmake.launchTargetDirectory}",
+      "args": ["2"], // refresh interval (seconds)
+      "console": "integratedTerminal",
+      "stopAtEntry": false
+    }
+  ]
+}
