@@ -1,0 +1,10 @@
+^D:\MY CREATIONS\PROJECTS\SYSTEM-MONITOR\BUILD\CMAKEFILES\EBF90A77403F94C94E8B487DE88C89BD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/My Creations/Projects/system-monitor" "-BD:/My Creations/Projects/system-monitor/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/My Creations/Projects/system-monitor/build/SystemMonitor.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

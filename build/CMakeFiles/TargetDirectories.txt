@@ -1,0 +1,3 @@
+D:/My Creations/Projects/system-monitor/build/CMakeFiles/system_monitor.dir
+D:/My Creations/Projects/system-monitor/build/CMakeFiles/ALL_BUILD.dir
+D:/My Creations/Projects/system-monitor/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^D:\MY CREATIONS\PROJECTS\SYSTEM-MONITOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/My Creations/Projects/system-monitor" "-BD:/My Creations/Projects/system-monitor/build" --check-stamp-file "D:/My Creations/Projects/system-monitor/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
